@@ -1,0 +1,14 @@
+/.idea
+/.venv
+/.coverage
+*.iml
+__pycache__
+.pytest_cache
+*_pb2.py
+*_grpc.py
+!protolib/**
+credentials
+central_backend/monitoring/k8s/resources
+protolib/*
+.coverage
+.venv

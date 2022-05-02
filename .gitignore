@@ -12,3 +12,5 @@ central_backend/monitoring/k8s/resources
 protolib/*
 .coverage
 .venv
+./apps
+./data

@@ -1,6 +1,7 @@
 from src.connection import setup_connection
 from src.models import Asset, Source, Data
 
+
 # https://docs.datastax.com/en/drivers/python/2.5/cqlengine/queryset.html#retrieving-objects-with-filters
 def run_query_example():
     setup_connection()

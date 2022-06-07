@@ -9,6 +9,9 @@ python = "^3.8"
 cassandra-driver = "^3.25.0"
 python-dotenv = "^0.20.0"
 SQLAlchemy = "^1.4.34"
+black = "^22.3.0"
+pyspark = "^3.2.1"
+pandas = "^1.4.2"
 
 [tool.poetry.dev-dependencies]
 

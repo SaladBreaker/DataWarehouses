@@ -1,0 +1,4 @@
+name,description,additional_attributes
+GM,dummy,"{""web"": ""http://dfdf"", ""dummy"": ""dummy""}"
+AAPL,dummy,"{""company"": ""apple"", ""dummy"": ""dummy""}"
+EUR,dummy,"{""about"": ""official EUR RON rate"", ""dummy"": ""dummy""}"

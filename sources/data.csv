@@ -1,0 +1,5 @@
+asset_id,source_id,values_double,values_text
+1,1,"{""opened"":30,""closed"":70,""high"":80,""low"":30}","{""dummy"":""test""}"
+2,2,"{""opened"":15,""closed"":10,""high"":15,""low"":10}","{""dummy"":""test""}"
+3,3,"{""opened"":10,""closed"":15,""high"":20,""low"":9}","{""dummy"":""test""}"
+3,2,"{""opened"":10,""closed"":15,""high"":20,""low"":9}","{""dummy"":""test""}"

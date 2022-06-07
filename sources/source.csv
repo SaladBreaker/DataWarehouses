@@ -1,0 +1,4 @@
+name,description,attributes
+QUANDL_NYSE,New York Exchange,"{""web"": ""http://dfdf"", ""dummy"": ""dummy""}"
+QUANDL_FEX,Frankfurth Exchange,"{""company"": ""apple"", ""dummy"": ""dummy""}"
+BNR_RO,BNR,"{""about"": ""official EUR RON rate"", ""dummy"": ""dummy""}"

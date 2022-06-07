@@ -14,7 +14,7 @@ services:
   spark-master:
     build: ./docker
     ports:
-      - "9090:8080"
+      - "9090:9090"
       - "7077:7077"
     volumes:
       - ./apps:/opt/spark-apps

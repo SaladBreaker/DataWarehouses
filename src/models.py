@@ -6,7 +6,7 @@ from cassandra.cqlengine.models import Model
 
 class Asset(Model):
     id = columns.Integer(primary_key=True)
-    name = columns.Text(required=True)
+    name = columns.Text(required=True, index=True)
     description = columns.Text(required=False)
     system_date = columns.DateTime(default=datetime.datetime.now())
     additional_attributes = columns.Map(columns.Text, columns.Text)
@@ -24,7 +24,7 @@ class Data(Model):
 
 class Source(Model):
     id = columns.Integer(primary_key=True)
-    name = columns.Text(required=True)
+    name = columns.Text(required=True, index=True)
     description = columns.Text(required=False)
     publisher = columns.Text(required=False)
     system_date = columns.DateTime(default=datetime.datetime.now())
